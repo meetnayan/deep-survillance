@@ -11,6 +11,7 @@ df=pd.DataFrame(columns=["Start","End"]) #To record start and end time
 video=cv2.VideoCapture(0)#capture video using webcam
 
 
+
 while True:
 
 	check,frame=video.read()
